@@ -5,7 +5,7 @@
   "author": "Nicolas Pearson",
   "license": "MIT",
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "start:dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "yarn lint:ts",
     "lint:ts": "yarn lint:ts:fix --no-fix",
