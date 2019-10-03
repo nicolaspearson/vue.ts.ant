@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
+    "declaration": true,
     "module": "esnext",
     "strict": true,
     "jsx": "preserve",
@@ -11,11 +12,12 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
+    "outDir": "./dist",
     "baseUrl": ".",
     "types": ["webpack-env", "jest"],
     "paths": {
-      "#/*": ["test/unit/*"],
-      "@/*": ["src/*"]
+      "@/*": ["src/*"],
+      "#/*": ["test/unit/*"]
     },
     "removeComments": true,
     "lib": [
