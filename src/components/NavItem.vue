@@ -11,7 +11,7 @@
 <script lang="ts" >
 import { Component, Prop, Vue } from 'vue-property-decorator';
 
-@Component
+@Component({})
 export default class NavItem extends Vue {
   @Prop({ required: true, type: Object })
   private navItem!: NavItem;

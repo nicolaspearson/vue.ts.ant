@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageHeader.vue matches snapshot 1`] = `
+<header class="header">
+  <section class="logo-alt">
+    <logoalt-stub></logoalt-stub>
+  </section>
+  <nav>
+    <ul>
+      <li>
+        <navitem-stub navitem="[object Object]"></navitem-stub>
+      </li>
+      <li>
+        <navitem-stub navitem="[object Object]"></navitem-stub>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;

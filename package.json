@@ -11,7 +11,7 @@
     "lint:ts": "yarn lint:ts:fix --no-fix",
     "lint:ts:fix": "vue-cli-service lint --fix src test types",
     "test:e2e": "vue-cli-service test:e2e",
-    "test:unit": "jest --version && vue-cli-service test:unit --verbose --coverage --config=./jest.config.js --color",
+    "test:unit": "jest --version && vue-cli-service test:unit --verbose --coverage --config=./tests/unit/jest.config.js --color",
     "test:unit:snapshot": "yarn test:unit --updateSnapshot",
     "ncu": "ncu",
     "ncu:u": "ncu -u"

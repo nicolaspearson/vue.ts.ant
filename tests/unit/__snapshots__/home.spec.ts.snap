@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home.vue matches snapshot 1`] = `
+<div class="home">
+  <h1>Welcome to Your Vue.js + TypeScript App</h1>
+  <section class="logo">
+    <logo-stub></logo-stub>
+  </section>
+</div>
+`;
