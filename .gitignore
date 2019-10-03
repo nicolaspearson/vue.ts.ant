@@ -1,11 +1,16 @@
-.DS_Store
+# Compiled output
 node_modules
 /dist
 
+# OS
+.DS_Store
+
+# Tests
+/coverage
 /tests/e2e/videos/
 /tests/e2e/screenshots/
 
-# local env files
+# Local env files
 .env.local
 .env.*.local
 

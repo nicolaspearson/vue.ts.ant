@@ -15,8 +15,9 @@ module.exports = {
       },
       scss: {
         prependData: `
-          @import '@/scss/_variables.scss';
+          @import '@/scss/_mixins.scss';
           @import '@/scss/_media-queries.scss';
+          @import '@/scss/_variables.scss';
         `,
       },
     },
