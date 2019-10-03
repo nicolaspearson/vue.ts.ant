@@ -1,4 +1,6 @@
-# vue.ts.ant
+# Vue + Typescript + Ant Design
+
+A simple Vue app, written using Typescript and Ant Design.
 
 ## Project setup
 
