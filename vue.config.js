@@ -13,6 +13,12 @@ module.exports = {
         },
         javascriptEnabled: true,
       },
+      scss: {
+        prependData: `
+          @import '@/scss/_variables.scss';
+          @import '@/scss/_media-queries.scss';
+        `,
+      },
     },
   },
 };

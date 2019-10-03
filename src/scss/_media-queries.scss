@@ -1,0 +1,91 @@
+$hd: 1360px;
+$xl: 1200px;
+$lg: 992px;
+$md: 768px;
+$sm: 576px;
+$ht-desktop: 800px;
+$ht-mobile: 700px;
+
+// for ultra-hd screens with more height
+@mixin uhd-desktop-high {
+  @media (min-width: #{$hd}) and (min-height: #{$ht-desktop}) {
+    @content;
+  }
+}
+// for ultra-hd screens with standard height
+@mixin uhd-desktop-normal {
+  @media (min-width: #{$hd}) and (max-height: #{$ht-desktop - 1px}) {
+    @content;
+  }
+}
+// for high definitions screens with more height
+@mixin hd-desktop-high {
+  @media (min-width: #{$xl}) and (min-height: #{$ht-desktop}) {
+    @content;
+  }
+}
+// for high definitions screens with standard height
+@mixin hd-desktop-normal {
+  @media (min-width: #{$xl}) and (max-height: #{$ht-desktop - 1px}) {
+    @content;
+  }
+}
+// for standard definition screens and iPad-Pro of higher resolution
+@mixin sd-desktop-high {
+  @media (min-width: #{$lg}) and (max-width: #{$xl - 1px}) and (min-height: #{$ht-desktop}) {
+    @content;
+  }
+}
+// for standard definition screens and normal iPads
+@mixin sd-desktop-normal {
+  @media (min-width: #{$lg}) and (max-width: #{$xl - 1px}) and (max-height: #{$ht-desktop - 1px}) {
+    @content;
+  }
+}
+// for large phones and tablets of lower resolution
+@mixin medium-screen {
+  @media (min-width: #{$md}) and (max-width: #{$lg - 1px}) {
+    @content;
+  }
+}
+// for phones
+@mixin small-screen {
+  @media (min-width: #{$sm}) and (max-width: #{$md - 1px}) {
+    @content;
+  }
+}
+// for small phones with more height
+@mixin ultra-small-screen-high {
+  @media (max-width: #{$sm - 1px}) and (min-height: #{$ht-mobile}) {
+    @content;
+  }
+}
+// for small phones with less height
+@mixin ultra-small-screen-normal {
+  @media (max-width: #{$sm - 1px}) and (max-height: #{$ht-mobile - 1px}) {
+    @content;
+  }
+}
+
+// Unrestricted media queries
+@mixin mobile-s {
+  @media (min-width: #{$sm}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$md}) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (min-width: #{$lg}) {
+    @content;
+  }
+}
+@mixin hd-desktop {
+  @media (min-width: #{$hd}) {
+    @content;
+  }
+}
