@@ -1118,10 +1118,10 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
     "@types/color-name" "^1.1.1"
     color-convert "^2.0.1"
 
-ant-design-vue@~1.4.6:
-  version "1.4.6"
-  resolved "https://registry.yarnpkg.com/ant-design-vue/-/ant-design-vue-1.4.6.tgz#9f01171332710d006d5dd5ca3b79b48e3eaa3331"
-  integrity sha512-01bgC8PM9zh4O5Xf6EHtrk6k3Erup+foVn56tRskQPBf634NhqKxvpKvjQqxeXQNhkCxFYJBO6eWT7gZeHSgUw==
+ant-design-vue@~1.4.10:
+  version "1.4.10"
+  resolved "https://registry.yarnpkg.com/ant-design-vue/-/ant-design-vue-1.4.10.tgz#26bf3570a3c93d54bae571e98f29457b0fd116d8"
+  integrity sha512-8QuLI8vP7c7D0k/8m4VDQzkyf2+uhcUl5voFaZ4bbMkCpUxm/1uNp+FdbLP+MxGcV5Pv5YSYbakd8ucNCYueeQ==
   dependencies:
     "@ant-design/icons" "^2.1.1"
     "@ant-design/icons-vue" "^2.0.0"
